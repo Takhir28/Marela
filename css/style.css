@@ -1,0 +1,99 @@
+body{
+	margin: 0 auto;
+}
+.marela{
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: calc(50% + 520px);
+}
+.marela ul{
+	display: flex;
+}
+.marela li{
+	list-style-type: none;
+}
+.marela a{
+	color: #C4AAC1;
+	text-decoration: none;
+	margin-left: 40px;
+	font-family: 'Cormorant Garamond';
+	font-size: 24px;
+}
+.marela a:hover{
+	border-bottom: 2px solid red;
+	transition-duration: 0,5s;
+}
+.content{
+	overflow-x: hidden;
+	position: relative;
+}
+.content img{
+	margin: 0 auto;
+	margin-top: -4px;
+}
+.img-1{
+	position: absolute;
+	top: 72px;
+	left: 130px;
+}
+.content-title{
+	width: 425px;
+	height: 450px;
+	position: absolute;
+	top: 182px;
+	right: 70px;
+	background-color: #B08EAD;
+}
+.content-title a {
+	display: inline-block;
+	font-family: 'Roboto';
+	font-size: 14px;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 50px 0 0 40px;
+}
+.content-title a:hover{
+	border-bottom: 3px solid white;
+}
+.content h1{
+	font-family: 'Cormorant Garamond';
+	font-size: 45px;
+	color: #FFFFFF;
+	padding-left: 40px;
+}
+.info{
+	text-align: center;
+}
+.info-text{
+	font-family: 'Roboto';
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 1.5px;
+	color: #B99BB6;
+}
+.info-text-2{
+	font-family: 'Cormorant Garamond';
+	font-size: 26px;
+	line-height: 38px;
+	color: #5F4D5D;
+}
+.btn-1{
+	width: 141px;
+	height: 45px;
+	border: 1px solid #B99BB6;
+	border-radius: 30px;
+	font-family: 'Roboto';
+	font-size: 11px;
+	line-height: 15px;
+	letter-spacing: 1.5px;
+	color: #B99BB6;
+}
+.btn-1:hover{
+	border: 2px solid red;
+	color: red;
+	font-weight: bold;
+	background-color: #B99BB6;
+	transition-duration: 1s;
+}
